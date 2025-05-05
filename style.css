@@ -1,24 +1,10 @@
    @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;600;700&display=swap");
 
-
-   :root {
-     --bg:            #c3eee3;
-     --text-main:     #031b35;
-     --accent:        #e4482c;
-     --accent-darker: #ab614b;
-   }
-
-   *,
-   *::before,
-   *::after {
-     box-sizing: border-box;
-   }
-
    body {
      margin: 0;
      padding: 2rem 1rem;
-     background: var(--bg);
-     color: var(--text-main);
+     background: #c3eee3;
+     color: #031b35;
      font-family: "Open Sans", sans-serif;
      font-size: 18px;
      line-height: 1.6;
@@ -29,25 +15,25 @@
    h2,
    h3 {
      font-family: "Poppins", sans-serif;
-     color: var(--accent);
+     color: #e4482c;
      margin: 0 0 1rem;
      line-height: 1.25;
    }
 
    h1 { font-size: 2.2rem; }
    h2 { font-size: 1.4rem; }
-   h3 { font-size: 1.1rem; color: var(--text-main); }
+   h3 { font-size: 1.1rem; color: #031b35; }
 
 
    a {
-     color: var(--accent);
+     color: #e4482c;
      text-decoration: none;
      transition: color 0.2s, transform 0.2s;
    }
 
    a:hover,
    a:focus {
-     color: var(--accent-darker);
+     color: #ab614b;
      text-decoration: underline;
      transform: translateY(-1px);
    }
@@ -73,7 +59,7 @@
    }
 
    .social-links a:hover i {
-     color: var(--accent-darker);
+     color: #ab614b;
    }
 
    p {
@@ -106,9 +92,9 @@
 .boxed-link {
   display: inline-block;
   padding: 0.6rem 1rem;
-  border: 2px solid var(--accent);
+  border: 2px solid #e4482c;
   border-radius: 8px;
-  background-color: var(--accent);
+  background-color: #e4482c;
   color: white;
   font-weight: 600;
   text-decoration: none;
@@ -117,6 +103,6 @@
 
 .boxed-link:hover {
   background-color: white;
-  color: var(--accent);
+  color: #e4482c;
   text-decoration: none;
 }
