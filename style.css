@@ -34,8 +34,6 @@
    a:hover,
    a:focus {
      color: #ab614b;
-     text-decoration: underline;
-     transform: translateY(-1px);
    }
 
    img {
@@ -65,7 +63,7 @@
    p {
      max-width: 650px;
      margin: 0 auto 0.5rem;
-     fonth-height: 0.5;
+     line-height: 1.4;
    }
 
 
